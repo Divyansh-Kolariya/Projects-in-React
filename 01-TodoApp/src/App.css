@@ -1,0 +1,21 @@
+
+h1 {
+    font-weight: 900;
+    font-size: 45px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
+.items-container{
+    text-align: center;
+}
+
+.gogo-row{
+    margin: 10px 250px;
+}
+
+.gogo-btn{
+    min-width: 75px;
+    float: left;
+}
