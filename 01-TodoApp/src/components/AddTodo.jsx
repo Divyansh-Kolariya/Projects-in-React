@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { MdLibraryAdd } from "react-icons/md";
 
 function AddTodo({ onNewItem }) {
   const [todoName, setTodoName] = useState("");
@@ -12,7 +13,7 @@ function AddTodo({ onNewItem }) {
   };
 
   const handleAddBtnCliked = () => {
-    if (todoName.trim() !== undefined && todoDate !== undefined) {
+    if (todoName.trim() !== "" && todoDate !== "") {
       onNewItem(todoName, todoDate);
       setTodoDate("");
       setTodoName("");
@@ -39,7 +40,7 @@ function AddTodo({ onNewItem }) {
             class="btn btn-success gogo-btn"
             onClick={handleAddBtnCliked}
           >
-            Add
+            <MdLibraryAdd />
           </button>
         </div>
       </div>
