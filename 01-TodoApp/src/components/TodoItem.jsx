@@ -9,7 +9,7 @@ function TodoItem({ todoName, todoDate, onDeleteClick }) {
         <div className="col-2">
           <button
             type="button"
-            class="btn btn-danger gogo-btn"
+            className="btn btn-danger gogo-btn"
             onClick={() => onDeleteClick(todoName)}
           >
             <MdDelete />
