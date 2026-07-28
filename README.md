@@ -2,11 +2,7 @@ This Repository contains various React projects and exercises to help developers
 
 The projects range from beginner to advanced levels, covering different aspects of React development, including state management, component lifecycle, hooks, routing, and more.
 
-## Table of Contents
-1. [Project 1: Simple Counter](#project-1-simple-counter)
-
-
-Learing Objectives:
+Learning Objectives:
 - Understand the basics of React components and state management.
 - Implement a simple counter application with increment and decrement functionality.
 - Learn how to handle user interactions and update the UI accordingly.
